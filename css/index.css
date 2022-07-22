@@ -1,0 +1,49 @@
+/* =============== VARIABLES ================== */
+:root {
+    --primary-font: 'Manrope', sans-serif;
+    --second-font: 'Inter', sans-serif;
+    --red-color: #F84646;
+    --white-color: #fff;
+    --gray-color: #F4F5F7;
+    --discover-title-color: #2E2E2E;
+    --discover-text-color: #808080;
+    --references-color: #18191F;
+    --light-gray-color: #E6E6E6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--primary-font);
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
